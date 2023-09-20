@@ -1,15 +1,15 @@
 package inheritance;
 
 class Employ{
-	final String name="Akbar Sami";
+	final String name="X";
 	final int age;
 	Employ(){
 		age=20;
 	}
 	static final String fathername,mothername;
 	static {
-		fathername="Md Azam Khan";
-		mothername="Shanaz Begum";
+		fathername="Y";
+		mothername="Z";
 	}
 	final void display() {
 		System.out.println("Name        : "+name);
