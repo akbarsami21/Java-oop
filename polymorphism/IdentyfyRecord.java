@@ -110,25 +110,25 @@ public class IdentyfyRecord {
 
 		System.out.println("                Student Infromation        ");
 		System.out.println("               ---------------------        \n");
-		Student s1 = new Student("Akbar Sami", 20, "Hathazari,Chittagong", " ", "5.4feet", "55 KG", "O+", 0.0, 2253,
+		Student s1 = new Student("X", 20, "Hathazari,Chittagong", " ", "5.4feet", "55 KG", "O+", 0.0, 210,
 				"CSE", "BSc In CSE", 3.40, 98);
 		s1.display();
 		System.out.println("\n");
 
 		System.out.println("                Employ Infromation        ");
 		System.out.println("               --------------------        \n");
-		Employ e1 = new Employ("Ali Mortuza", 22, "Chadgaon", "HSC", "5.3Feet", "70 KG", "O+", 50000, "10AM to 10PM");
+		Employ e1 = new Employ("Y", 22, "Chadgaon", "HSC", "5.3Feet", "70 KG", "O+", 50000, "10AM to 10PM");
 		e1.display();
 		System.out.println("\n");
 
-		Employ e2 = new Doctor("Dr.Arzu", 40, "Chadgaon", "MBBS", "5.5Feet", "68 KG", "AB+", 1500000, "10AM to 11PM",
+		Employ e2 = new Doctor("Z", 40, "Chadgaon", "MBBS", "5.5Feet", "68 KG", "AB+", 1500000, "10AM to 11PM",
 				"Chittagong Medical College"); // this is runtime polymorphism
 		e2.display();
 		System.out.println("\n");
 
 		System.out.println("                Person Infromation        ");
 		System.out.println("               --------------------        \n");
-		Person p1 = new Student("Sakib Chowdury", 21, "Hathazari,Chittagong", " ", "5.2feet", "65 KG", "A+", 0.0, 2241,
+		Person p1 = new Student("K", 21, "Hathazari,Chittagong", " ", "5.2feet", "65 KG", "A+", 0.0, 211,
 				"CSE", "BSc In CSE", 3.00, 99); // this is runtime polymorphism
 		p1.display();
 	}
