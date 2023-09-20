@@ -59,12 +59,12 @@ public class Student {
 	
 	public static void main(String[] args) {
 		Student s1=new Student();
-		s1.setId("2104010202253");
-		s1.setName("Md Ali Akbar Sami");
-		s1.setFname("Md.Azam Khan");
-		s1.setMname("Shanaz Begum");
-		s1.setAdd("Rowshan Ali Showdagar Bari,\n\t      Nurali Bari,Hathazari,Chittagong");
-		s1.setPhoneNum("01720423399");
+		s1.setId("210");
+		s1.setName("X");
+		s1.setFname("Y");
+		s1.setMname("Z");
+		s1.setAdd("Hathazari,Chittagong");
+		s1.setPhoneNum("01234567891");
 		s1.setBooldG("O+");
 		
 		System.out.println("      Premier University   ");
