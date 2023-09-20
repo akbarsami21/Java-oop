@@ -52,17 +52,17 @@ class Student4 extends Person1 {
 public class InheriPrivateMem {
 	public static void main(String[] args) {
 		Student4 p1 = new Student4();
-		p1.setName("Akbar Sami");
+		p1.setName("X");
 		p1.setAge(20);
-		p1.setId(2253);
+		p1.setId(210);
 		p1.setProgram("BSc In CSE");
 		p1.printInfo();
 		System.out.println("Program :" + p1.getProgram() + "\n");
 
 		Student4 p2 = new Student4();
-		p2.setName("Sakib Chowdury");
+		p2.setName("Y");
 		p2.setAge(21);
-		p2.setId(2241);
+		p2.setId(211);
 		p2.setProgram("BSc In CSE");
 		p2.printInfo();
 		System.out.println("Program :" + p2.getProgram() + "\n");
