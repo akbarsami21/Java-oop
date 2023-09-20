@@ -46,20 +46,20 @@ public class MethodOverriding {
 		B b = new B();
 		C c = new C();
 
-		a.name = "Sami";
+		a.name = "X";
 		a.age = 20;
-		a.id = 2253;
+		a.id = 210;
 		a.print();
 
-		b.name = "Sami";
+		b.name = "Y";
 		b.age = 20;
-		b.id = 2253;
+		b.id = 211;
 		b.quali = "BSc in CSE";
 		b.print();
 
-		c.name = "Sami";
+		c.name = "Z";
 		c.age = 20;
-		c.id = 2253;
+		c.id = 212;
 		c.quali = "BSc in CSE";
 		c.program = "Computer Scincece & Engingeering";
 		c.print();
